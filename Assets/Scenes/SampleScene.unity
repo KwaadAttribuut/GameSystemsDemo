@@ -569,8 +569,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265142204}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1088.6538, y: 861.88306, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 128.65381, y: 321.88306, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -581,7 +581,7 @@ Transform:
   - {fileID: 225136554}
   - {fileID: 1325948088}
   - {fileID: 907318256}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1979712725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278178618
 GameObject:
@@ -1656,6 +1656,7 @@ MonoBehaviour:
   waves:
   - {fileID: 11400000, guid: 42ed8e6a65bca5743adf212a41ae7eaf, type: 2}
   - {fileID: 11400000, guid: f798bcb5042d9904996373f5f5834683, type: 2}
+  - {fileID: 11400000, guid: e90850f3acf3abe4e9e3fda1949fa02d, type: 2}
   spawnPoint: {fileID: 2067585770}
   pathPoints:
   - {fileID: 307475428}
@@ -7019,6 +7020,7 @@ RectTransform:
   m_Children:
   - {fileID: 1753976541}
   - {fileID: 1606920352}
+  - {fileID: 265142205}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7273,7 +7275,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1088.6538, y: -864.4131, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3.3264, y: 3.3264, z: 3.3264}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2034843642}
@@ -8347,7 +8349,6 @@ Tilemap:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 265142205}
   - {fileID: 1979712725}
   - {fileID: 2034843642}
   - {fileID: 1329827113}
